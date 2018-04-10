@@ -1,0 +1,316 @@
+/*
+Theme Name: e-commerce 
+Author: Paul Cristerna
+Description: Este es una tema con estilo sofisticado dirigido al comercio eletronico basado en WordPress.
+Version: 1.0
+Tags: e-commerce, e-store, e-shop, shop, white, blue, gray, one-column, two-columns, left-sidebar, right-sidebar.
+*/
+
+* a img{
+	border:none;
+}
+
+body{
+	font-family: helvetica; 
+}
+
+.limpiar{
+	clear:both;
+}
+
+/**header**/
+#principal{
+	background:url("images/menu-fondo.png");
+	height:90px;
+	margin: -16px -8px 0px -8px;
+}
+
+#menunav{
+	color:white;
+	font-family: Copperplate Gothic Bold, helvetica; 
+	font-size:1.1em;
+	margin: 0 auto;
+	width:1024px;	
+}
+
+#menunav a{
+	color:#d3d8dc;
+	text-decoration:none;
+}
+
+.nav{
+	margin-top:25px;
+	float:right;
+}
+
+#menunav ul{
+	list-style:none;
+	margin-right:130px;
+}
+
+#menunav ul li, #menunav ul li > ul{
+	float:left;
+	margin: 0px 0px 0px 60px;
+}
+
+#menunav ul li a:hover{
+	color:#f0f2f4;
+}
+
+/*menunav ul li:hover > ul{
+	display:block;
+}
+
+#menunav ul li > ul{
+	display:none;
+	position: absolute;
+	margin-left:-124px;
+	padding-top: 10px;
+	text-align:center;
+	z-index:1;
+}
+
+#menunav ul li > ul li{
+	float:none;
+	background:#8e9297;
+	padding: 10px 0px 10px 0px;
+}
+
+#menunav ul li > ul li{
+	font-size:.9em;
+	float:none;
+	background:#8e9297;
+	padding: 10px 10px 10px 10px;
+}
+
+#menunav ul li > ul li{
+	border-bottom: 1px #616a74 solid;
+}
+
+#menunav ul li > ul li:hover{
+	background:#616a74;
+}
+
+#menunav ul li > ul li a{
+	color:#f0f2f4;
+	display:block;
+}*/
+
+#menunav ul li > ul{
+	position: absolute;
+	margin:-20px 0px 0px 250px;
+}
+
+/*#menunav .page-item-4{
+	padding:0px 23px 10px 24px
+}*/
+
+.logo{
+	float: left;
+	height:80px;
+	margin-top:11px;
+	text-align:left;
+	width:200px;
+}
+
+/*slider*/
+.slide{
+	background:black;
+	height:350px;
+	margin-top:-24px;
+	width:1024px;
+}
+
+/**contenido**/
+
+#contenido{
+	margin: 0 auto;
+	width:1024px;
+}
+
+.entradas, .sidebar{
+	margin-top:10px;
+}
+
+.entradas{
+	border-right:1px #c2c2c2 solid;
+	color:#2E2E2E;
+	float:left;
+	font-family: helvetica;
+	padding: 0px 20px 20px 15px;
+	text-align:justify;
+	width:767px;
+}
+
+.inicio{
+	height:800px;
+}
+
+.entradas a{
+	color:#606a74;
+	text-decoration:none;
+}
+
+.entradas h2 a, .entradas h2{
+	color:#606a74;
+	text-decoration:none;
+}
+
+.entradas a:hover, h2 a:hover{
+	text-decoration:underline;
+}
+
+.entradas a img, .entradas img{
+	margin-right:10px;
+}
+
+.entradas strong{
+	font-family: helvetica;
+}
+
+/**productos**/
+.default_product_display{
+	background:#47525c;
+	border-radius:10px;
+	color:#d3d8dc;
+	float:left;
+	height:283px;
+	margin:0px 10px 15px 0px;
+	padding:7px;
+	text-align:center;	
+	width:166px;
+}
+
+.default_product_display:hover{
+	background:#3c4650;
+}
+
+.default_product_display h2 a{
+	color:#fff;
+	font-size:.8em;
+}
+
+.default_product_display a img{
+	border-radius:10px;
+	height:165px;
+	margin:0px 0px -10px 0px;
+	width:165px;
+}
+
+.default_product_display a{
+	color:#d3d8dc;
+}
+
+.post-edit-link{
+	background:#2E2E2E;
+	font-size:.9em;
+	padding:3px;
+}
+
+.entry-title{
+	font-size:1.1em;
+	height:35px;
+}
+
+.wpsc_loading_animation{
+	background: rgba(0, 0, 0, 0.8);
+	border-radius:8px;
+	color:white;
+	margin:0px 0px 0px -20px;
+	padding:7px;
+	position: absolute;
+	width:200px;
+	z-index:1;
+}
+
+.wpsc_buy_button{
+	background:#606a74;
+	background-image:url("images/fondo-cart.png");
+	background-repeat:no-repeat;
+	background-position:right;
+	border:none;
+	border-radius:10px;
+	color:#fff;
+	cursor: pointer;
+	font-size:1em;
+	height:40px;
+	margin-top:-10px;
+	padding:10px;
+	width:165px;
+}
+
+.wpsc_buy_button:hover{
+	background:#727c85;
+	background-image:url("images/fondo-cart2.png");
+	background-image:url("images/fondo-cart2.png");
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+.wpsc_page_numbers_bottom{
+	clear:both;
+}
+
+/**sidebar**/
+.sidebar{
+	color:#2E2E2E;
+	float:right;
+	width:220px;
+}
+
+.sidebar h2{
+	color:#8e9297;
+	font-size:1.2em;
+	text-align:center;
+	text-decoration:none;
+}
+
+.sidebar .widget_wpsc_categorisation ul li{
+	height:110px;
+}
+
+.sidebar ul{
+	list-style:none;
+	margin-left:-10px;
+}
+
+.sidebar ul li{
+	list-style:none;
+	margin-left:-10px;
+}
+
+.sidebar ul li a{
+	color:#606a74;
+	text-decoration:none;
+}
+
+.sidebar ul li a:hover{
+	text-decoration:underline;
+}
+
+.wpsc_categorisation_group ul{
+	margin-left:-35px;
+	text-align:center;
+	background-color:blue;
+}
+
+.wpsc_categorisation_group ul li{
+	float:left;
+	width:80px;
+	margin:5px;
+}
+
+/**footer**/
+#footer{
+	border-top: 1px #c2c2c2 solid;
+	color: #687480;
+	font-family: Copperplate Gothic Light, helvetica;
+	padding-top:15px;
+	margin: 0 auto;
+	text-align:center;
+	width:100%;
+}
+
+.titulo{
+	font-family: Copperplate Gothic Bold, helvetica;
+}
